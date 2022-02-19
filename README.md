@@ -8,6 +8,17 @@ packages:
 - [dev](packages/dev/README.md) - Developer API
 - [web](./web/README.md) - Web interface to the core.
 
+# How to setup monorepo:
+
+This project uses yarn v1 and `npm link`. It does not use workspaces, lerna or any other monorepo tools.
+
+`npm link` is used to allow one package to depend on another package.
+
+- Go into `packages/common` and run `npm link`.
+- Go into `packages/cache` and run `npm link common`.
+
+Since we use `npm link`, all packages should be deployed at the same time.
+
 # How to make a new package:
 
 1. Copy dot files from `common`.

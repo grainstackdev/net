@@ -14,10 +14,10 @@
     "eslint-plugin-import": "^2.25.4",
     "flow-bin": "^0.172.0",
     "prettier": "^2.5.1",
-    "serverless": "^2.56.0",
-    "serverless-bundle": "^4.1.0",
+    "serverless": "^3.2.1",
+    "serverless-bundle": "^5.3.0",
     "serverless-dotenv-plugin": "^3.1.0",
-    "serverless-offline": "^6.8.0"
+    "serverless-offline": "^8.4.0"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.51.0",
