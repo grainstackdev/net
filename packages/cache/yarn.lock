@@ -4084,6 +4084,8 @@
 "common@file:../common":
   "resolved" "file:../common"
   "version" "1.0.0"
+  dependencies:
+    "ambi" "^8.28.0"
 
 "commondir@^1.0.1":
   "integrity" "sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs="

@@ -10,6 +10,10 @@ packages:
 
 # How to setup monorepo:
 
+1. Run `yarn -v` to verify you are on yarn version 1.
+2. Run `yarn`.
+
+### npm link
 This project uses yarn v1 and `npm link`. It does not use workspaces, lerna or any other monorepo tools.
 
 `npm link` is used to allow one package to depend on another package.
