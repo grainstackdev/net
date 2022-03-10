@@ -17,6 +17,6 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "postinstall": "cd packages/common && yarn link && cd ../cache && yarn link common"
+    "postinstall": "cd packages/common && yarn && npm link && cd ../cache && yarn && npm link common"
   }
 }
