@@ -16,6 +16,7 @@
     "*.{js,css,md}": "prettier --write"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "cd packages/common && npm link && cd ../cache && npm link common"
   }
 }
